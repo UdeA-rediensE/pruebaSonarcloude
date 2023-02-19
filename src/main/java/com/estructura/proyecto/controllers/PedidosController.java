@@ -39,7 +39,7 @@ public class PedidosController {
 
         if (!validarToken(token)) {
             return pedidosDao.getPedidos();
-            /*return null;*/
+
         }
         return pedidosDao.getPedidos();
     }
